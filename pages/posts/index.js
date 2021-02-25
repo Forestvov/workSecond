@@ -60,18 +60,3 @@ Posts.getInitialProps = async ({req}) => {
     }
 }
 
-// export async function getServerSideProps(context) {
-//     const res = await fetch(`${process.env.API_URL}?_page=1`)
-//     const posts = await res.json()
-//
-//     if (!posts) {
-//         return {
-//             posts: null
-//         }
-//     }
-//
-//     return {
-//         posts: {}, // will be passed to the page component as props
-//     }
-// }
-
