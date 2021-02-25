@@ -1,0 +1,14 @@
+.paginator {
+  padding: 15px 0;
+}
+
+.link {
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.link.current{
+  font-weight: 700;
+  color: red;
+}

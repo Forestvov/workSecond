@@ -1,0 +1,33 @@
+.items{
+  padding: 20px 0;
+}
+
+
+
+.title{
+  font-weight: 400;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #333333;
+  margin: 0 0 20px 0;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.listItem{
+  span{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+  }
+  a{
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+
+  & + .listItem{
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,15 @@
+.navigation {
+  text-align: center;
+  padding: 30px;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+
+  a{
+    color: #fff;
+  }
+
+  li + li{
+    margin-left: 30px;
+  }
+}
